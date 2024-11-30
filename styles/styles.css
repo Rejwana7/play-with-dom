@@ -1,0 +1,8 @@
+#content {
+    display: none;
+  }
+
+  .common-class{
+    background-color: brown;
+    border:2px solid green;
+  }
