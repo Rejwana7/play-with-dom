@@ -36,7 +36,7 @@ const actionCell = document.createElement("td");
 const completeBtn=document.createElement("button")
 
 completeBtn.textContent="✔️"
-completeBtn.classList.add("btn", "btn-xs", "btn-success", "me-2");
+completeBtn.classList.add("btn", "btn-xs", "btn-success", );
 completeBtn.addEventListener("click",function(){
     descriptionCell.style.textDecoration = "line-through";
     descriptionCell.style.color = "gray";
